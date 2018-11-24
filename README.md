@@ -4,12 +4,14 @@ https://www.amazon.co.jp/dp/B07J5434JB/ref=dp-kindle-redirect?_encoding=UTF8&btk
 
 
 # ▼環境構築
+## ・envファイルを作る
+`.env.example`を`.env`に書き換える。
 
-## ・環境変数の登録
+## ・APIトークンの登録
 QiitaのAPIが必要なので事前に取得しておく。  
-トークンを環境変数に設定する。
+.envファイルに以下の行を追加する。
 ```
-export QIITA_TOKEN=xxxxxxx
+QIITA_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
 ## ・起動
